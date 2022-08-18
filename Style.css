@@ -1,0 +1,91 @@
+body{
+  font-family: 'Open Sans',sans-serif;
+  background-image: url(https://media.istockphoto.com/photos/digital-eye-wave-lines-stock-background-picture-id1333772664?b=1&k=20&m=1333772664&s=612x612&w=0&h=7iNFuqBWxS7nugEVW8hhGwpe7ejZt_fWPd1W_if__DU=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container{
+  width: 1000px;
+  height: 565px;
+  margin: 20px auto;
+  background-image: url(https://media.istockphoto.com/photos/colorful-background-picture-id1280385511?b=1&k=20&m=1280385511&s=612x612&w=0&h=jbfjGHPmkUo34cZUn3EW8yrXtMkObwUwIVac81y4C4U=);
+  background-repeat: no-repeat;
+  background-position: left;
+  backface-visibility: hidden;
+}
+#calci{
+  width: 320px;
+  height: 525px;
+  background-color:solid whitesmoke;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 50px grey;
+}
+.result{
+  height: 120px;
+}
+#history{
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: rgb(171, 175, 185);
+}
+#output{
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+#keyboard{
+  height: 400px;
+
+}
+.operator, .number, .empty{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: solid whitesmoke;
+}
+
+.empty{
+  background-color: white !important;
+}
+.operator{
+  background-color: rgb(85, 43, 43);
+}
+.number, .operator{
+  cursor:grab;
+}
+.operator:active, .number:active{
+  font-size: 13px;
+}
+
+button:nth-child(4){
+  font-size: 20px;
+  background-color: teal;
+}
+button:nth-child(8){
+  font-size: 20px;
+  background-color: orange;
+}
+button:nth-child(12){
+  font-size: 20px;
+  background-color: rgb(231, 77, 108);
+}
+button:nth-child(16){
+  font-size: 20px;
+  background-color: rgb(90, 90, 196);
+}
+button:nth-child(20){
+  font-size: 20px;
+  background-color: rgb(47, 151, 47);
+}
